@@ -56,6 +56,7 @@ public class OkZoomerClient {
                 (ClampedItemPropertyFunction) (stack, clientWorld, entity, i) -> entity != null && entity.isUsingItem() && entity.getUseItem() == stack && entity.getUseItem().is(SpyglassHelper.SPYGLASSES) ? 1.0F : 0.0F);
 
         ClientRegistry.registerKeyBinding(ZoomKeyBinds.ZOOM_KEY);
+        ClientRegistry.registerKeyBinding(ZoomKeyBinds.CINEMATIC_KEY);
         if (ZoomKeyBinds.areExtraKeyBindsEnabled()) {
             ClientRegistry.registerKeyBinding(ZoomKeyBinds.DECREASE_ZOOM_KEY);
             ClientRegistry.registerKeyBinding(ZoomKeyBinds.INCREASE_ZOOM_KEY);

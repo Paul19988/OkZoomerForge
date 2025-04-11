@@ -19,6 +19,7 @@ import static com.matyrobbrt.okzoomer.config.ClientConfig.*;
 public class ZoomUtils {
     // The logger, used everywhere to print messages to the console
     public static final Logger LOGGER = LoggerFactory.getLogger("Ok Zoomer");
+    public static boolean CINEMATIC_CAMERA = false;
 
     public static final ZoomInstance ZOOMER_ZOOM = OkZoomerAPI.INSTANCE.registerZoom(OkZoomerAPI.INSTANCE.createZoomInstance(
             new ResourceLocation("ok_zoomer:zoom"),

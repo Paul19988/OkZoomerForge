@@ -13,6 +13,8 @@ public class ZoomKeyBinds {
 	// The zoom key bind, which will be registered
 	public static final KeyMapping ZOOM_KEY = new KeyMapping("key.okzoomer.zoom", GLFW.GLFW_KEY_C, ZOOM_CATEGORY);
 
+	public static final KeyMapping CINEMATIC_KEY = new KeyMapping("key.okzoomer.cinematic", GLFW.GLFW_KEY_F8, ZOOM_CATEGORY);
+
 	// The "Decrease Zoom" key bind
 	public static final KeyMapping DECREASE_ZOOM_KEY = getExtraKeyBind("key.okzoomer.decrease_zoom");
 
